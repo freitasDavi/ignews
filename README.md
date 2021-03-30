@@ -32,3 +32,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Como utilizar a CLI do Stripe
+
+1 - Jogar o arquivo do Strip pra dentro do CMD
+
+2 - Utilizar na frente .\stripe {comandos} para rodar os comandos
+
+3 - Fazer o login com .\stripe login
+
+4 - Para escutar as alterações, utilizar .\stripe listen --forward-to localhost:3000/api/webhooks
+
+5 - Adicionar no .env.local a variavel STRIPE_WEBHOOK_SECRET

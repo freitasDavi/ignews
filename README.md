@@ -33,7 +33,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
 ## Como utilizar a CLI do Stripe
 
 1 - Jogar o arquivo do Strip pra dentro do CMD
@@ -45,3 +44,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 4 - Para escutar as alterações, utilizar .\stripe listen --forward-to localhost:3000/api/webhooks
 
 5 - Adicionar no .env.local a variavel STRIPE_WEBHOOK_SECRET
+
+6 - PRISMIC_ACCESS_TOKEN
+
+7 - PRISMIC_ENDPOINT=https://ignews33.cdn.prismic.io/api/v2
